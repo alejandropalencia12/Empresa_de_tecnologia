@@ -1,4 +1,4 @@
-# Empresa_de_tegnologia — Dashboard de Ventas y Rentabilidad
+# Empresa_de_tecnologia — Dashboard de Ventas y Rentabilidad
 
 Aplicación de análisis de ventas desarrollada con Python, Pandas, Plotly y Streamlit.
 
