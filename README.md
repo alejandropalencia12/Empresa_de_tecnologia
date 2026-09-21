@@ -27,4 +27,4 @@ streamlit run app.py
 
 ## Despliegue
 
-[El repositorio puede conectarse a Streamlit Community Cloud seleccionando `app.py` como archivo principal.](https://empresadetecnologia-2enj3bqelv2hye5atvheke.streamlit.app/)
+https://empresadetecnologia-2enj3bqelv2hye5atvheke.streamlit.app/
