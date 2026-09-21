@@ -664,6 +664,11 @@ def crear_pdf(datos: pd.DataFrame) -> bytes:
                 styles["ExecutiveTitle"],
             ),
             Paragraph(
+               "Creado por: Alejandro Castillo Palencia",
+                styles["ExecutiveSubtitle"],
+            ),
+
+            Paragraph(
                 "Análisis gerencial basado en los datos actualmente seleccionados en el dashboard",
                 styles["ExecutiveSubtitle"],
             ),
@@ -1286,6 +1291,7 @@ def main():
     datos = cargar_datos()
 
     st.title("Dashboard de Ventas y Rentabilidad")
+    st.caption("Creado por: Alejandro Castillo Palencia")
     st.caption(
         "Análisis interactivo basado en datos_ejemplo.xlsx. "
         "El informe se genera con los filtros seleccionados."
